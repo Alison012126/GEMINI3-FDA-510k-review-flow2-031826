@@ -1,0 +1,5 @@
+{
+  "name": "Agentic Medical Device Reviewer",
+  "description": "An AI-powered application for FDA 510(k) review support, featuring PDF extraction, markdown generation, and comprehensive review guidance.",
+  "requestFramePermissions": []
+}

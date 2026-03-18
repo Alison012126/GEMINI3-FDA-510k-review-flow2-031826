@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pantone-classic-blue: #0f4c81;
+  --color-pantone-living-coral: #ff6f61;
+  --color-pantone-ultra-violet: #5f4b8b;
+  --color-pantone-greenery: #88b04b;
+  --color-pantone-rose-quartz: #f7cac9;
+  --color-pantone-serenity: #92a8d1;
+  --color-pantone-marsala: #955251;
+  --color-pantone-radiant-orchid: #b565a7;
+  --color-pantone-emerald: #009b77;
+  --color-pantone-tangerine-tango: #dd4124;
+}
+
+body {
+  @apply transition-colors duration-300;
+}
+
+.theme-light {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.theme-dark {
+  @apply bg-gray-900 text-gray-100;
+}
+
+/* Pantone Styles */
+.style-classic-blue {
+  --primary: var(--color-pantone-classic-blue);
+}
+.style-living-coral {
+  --primary: var(--color-pantone-living-coral);
+}
+.style-ultra-violet {
+  --primary: var(--color-pantone-ultra-violet);
+}
+.style-greenery {
+  --primary: var(--color-pantone-greenery);
+}
+.style-rose-quartz {
+  --primary: var(--color-pantone-rose-quartz);
+}
+.style-serenity {
+  --primary: var(--color-pantone-serenity);
+}
+.style-marsala {
+  --primary: var(--color-pantone-marsala);
+}
+.style-radiant-orchid {
+  --primary: var(--color-pantone-radiant-orchid);
+}
+.style-emerald {
+  --primary: var(--color-pantone-emerald);
+}
+.style-tangerine-tango {
+  --primary: var(--color-pantone-tangerine-tango);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+.text-primary {
+  color: var(--primary);
+}
+.border-primary {
+  border-color: var(--primary);
+}
+.ring-primary {
+  --tw-ring-color: var(--primary);
+}
